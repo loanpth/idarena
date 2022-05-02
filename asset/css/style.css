@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.primary-color {
+  color: #4D77FF;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  background: #4D77FF;
+  padding: 0.375rem 0.75rem;
+  font-size: 14px;
+  border-radius: 0.25rem;
+}
+
+/* Style the header */
+header {
+  padding: 50px 100px;
+}
+
+section {
+  margin: 50px 100px;
+}
+
+/* Style the list inside the menu */
+ul {
+  /*list-style-type: none;*/
+  list-style: none outside none;
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+
+ul li{
+  margin: 0 10px; display: inline;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 50%;
+}
+
+nav .logo {
+  float: left;
+}
+
+nav ul {
+  float: left;
+  padding-left: 20px;
+  padding-top: 2px;
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+
+}
+
+.nav-right {
+  float: right;
+}
+
+
+
+/* Style sections */
+.section1 {
+  background-image: url(../img/female-in-banner.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  min-height: 360px;
+  background-size: 600px auto;
+  padding-top: 50px;
+}
+
+.st1-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.st1-desc {
+  padding: 20px 0px;
+  font-size: 12px;
+  max-width: 50%;
+}
